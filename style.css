@@ -488,11 +488,11 @@ footer li {
     height: 100vw - 170px;
   }
   .timeline li .timeline-image {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
   }
   .timeline li .timeline-panel {
-    width: 65%;
+    width: 60%;
     transform: translateX(-20px);
   }
   .timeline li .timeline-panel::before {
