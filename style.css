@@ -114,6 +114,7 @@ body.transition {
   background-color: var(--pink);
   height: 80px;
   z-index: 1;
+  width: 100vw;
 }
 
 .nav li {
@@ -275,6 +276,9 @@ body.transition {
 }
 #lokasi-section .btn-get-location:hover {
   background: var(--pink-dark);
+}
+#lokasi-section div.map {
+  margin-bottom: 5px;
 }
 #love-section span,
 #gallery-section span,
@@ -444,8 +448,45 @@ footer li {
     width: 140px;
     height: 140px;
   }
+  #door-section {
+    height: 100vh;
+    width: 100vw;
+  }
+  #door-section h1 {
+    display: none;
+  }
+  #door-section div.doors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
+/* @media (max-width: 685px) {
+  #lokasi-section iframe {
+    width: 100vw - 20px;
+    height: 100vw -170;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+  }
+} */
 @media (max-width: 576px) {
+  #content-section ul.nav span.nav-music {
+    width: 75px;
+    height: 75px;
+  }
+  .nav li a {
+    font-size: 20px;
+  }
+  .nav li a.nav-item-music {
+    top: -37px;
+  }
+  div.map {
+    width: 100vw - 20px;
+    height: 100vw - 170px;
+  }
   .timeline li .timeline-image {
     width: 80px;
     height: 80px;
